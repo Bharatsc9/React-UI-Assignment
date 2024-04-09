@@ -4,9 +4,11 @@ function SideBar() {
   return (
     <div>
       <div className="btn">
-        <button>Back</button>
+        <img src="https://ik.imagekit.io/oog7a5ln3/BHARAT/CATALIX%20ASSESMENT/backIcon.png?updatedAt=1712477474219"/>  
       </div>
-      <img src=""></img>
+      <div className="cat-img">
+      <img src="https://ik.imagekit.io/oog7a5ln3/BHARAT/CATALIX%20ASSESMENT/catalixIcon.png?updatedAt=1712477474200"></img>
+       <div className="bold">Catalix</div></div>
     </div>
   );
 }

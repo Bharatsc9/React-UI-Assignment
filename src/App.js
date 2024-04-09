@@ -4,6 +4,7 @@ import CardComp from './components/CardComp';
 import DashBar from './components/DashBar';
 import Header from './components/Header';
 import LowerMenu from './components/LowerMenu';
+import RatesCard from './components/RatesCard';
 import SideBar from './components/SideBar';
 import SideMenu from './components/SideMenu';
 
@@ -19,6 +20,7 @@ function App() {
       <div className= "Main">
         <Header/>
         <DashBar/>
+        <RatesCard/>
         <CardComp/>
       </div>
     </div>
