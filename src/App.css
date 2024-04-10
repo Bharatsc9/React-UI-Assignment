@@ -18,7 +18,7 @@
   position: absolute;
   right: 20px;
   width: 75vw;
-  height: 100vh;
+  height: auto;
   background-color: pink;
 }
 
@@ -127,4 +127,71 @@
 
 .value-data {
   font-weight: bold;
+}
+
+.main-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.small-card {
+  width: 220px;
+  height: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  background-size: cover;
+}
+
+.bold-title {
+  color: rgba(255, 255, 255, 1);
+  width: 180px;
+  height: 20px;
+  top: 11.85px;
+  left: 19.75px;
+  gap: 0px;
+  opacity: 0px;
+  /* font-family: Poppins; */
+  font-size: 12.64px;
+  font-weight: 600;
+  line-height: 19.75px;
+  letter-spacing: 0.395099937915802px;
+  text-align: left;
+
+  /* font-weight: bold; */
+  /* font-size: large; */
+}
+
+.light-title {
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.card-num {
+  display: flex;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.drop-down {
+  margin-left: 8px;
+  margin-bottom: 2px;
+  width: 10px;
+  height: 10px;
+}
+
+.price-card {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.cent-card {
+  margin-left: 5px;
+}
+
+.currency {
+  color: gray;
 }
